@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact page for sprint training and athletics site">
+  <meta name="keywords" content="Contact, Sprinting, Athletics, Training">
+  <title>Contact – Stride Start</title>
+  <link rel="icon" type="image/ico" sizes="16x16" href="Images/StrideSynceFavicon.png">
+  <link rel="stylesheet" href="CSS/style.css" type="text/css">
+</head>
+<body>
+  <main>
+    <header id="top">
+      <img src="Images/StrideSynceFavicon.png" id="logo" alt="Stride Start logo">
+      <h1>Contact</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="sprinting.html">SPRINTING</a></li>
+          <li><a href="contact.html" id="activeLink">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Need coaching tips, sprint plans, or feedback?</h2>
+      <p>Send me a message if you have questions about training, race strategy, or this sprint‑focused site.</p>
+
+      <form action="https://example.com/api/message" method="post">
+        <label for="fullname">Full name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="yourname@example.com">
+
+        <label for="subject">Subject:</label>
+        <select id="subject" name="subject">
+          <option value="training">Sprint training question</option>
+          <option value="form">Technique or form advice</option>
+          <option value="race">Race strategy help</option>
+          <option value="site">Comment about this site</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" maxlength="300" placeholder="What do you want to know about sprinting or the site?"></textarea>
+
+        <p>By submitting, you agree this is related to athletics or this project.</p>
+        <input type="submit" value="Send message">
+        <input type="reset" value="Clear form">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; 2026 | College project – sprint‑themed site</p>
+    <a href="#top">Back to top</a>
+
+    <nav aria-label="Secondary navigation">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="sprinting.html">SPRINTING</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

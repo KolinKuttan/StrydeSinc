@@ -29,13 +29,13 @@
       <p>Send me a message if you have questions about training, race strategy, or this sprint‑focused site.</p>
 
       <form action="https://example.com/api/message" method="post">
-        <label for="fullname">Full name:</label>
+        <label for="fullname">Full name: <span class="required">*</span></label>
         <input type="text" id="fullname" name="fullname" required>
 
-        <label for="email">Email:</label>
+        <label for="email">Email: <span class="required">*</span></label>
         <input type="email" id="email" name="email" required placeholder="yourname@example.com">
 
-        <label for="subject">Subject:</label>
+        <label for="subject">Subject: <span class="required">*</span></label>
         <select id="subject" name="subject">
           <option value="training">Sprint training question</option>
           <option value="form">Technique or form advice</option>
@@ -43,7 +43,7 @@
           <option value="site">Comment about this site</option>
         </select>
 
-        <label for="message">Message:</label>
+        <label for="message">Message: <span class="required">*</span></label>
         <textarea id="message" name="message" rows="6" maxlength="300" placeholder="What do you want to know about sprinting or the site?"></textarea>
 
         <p>By submitting, you agree this is related to athletics or this project.</p>

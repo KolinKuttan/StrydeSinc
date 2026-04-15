@@ -178,4 +178,23 @@ tbody tr:nth-child(odd) {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
+#insta img{ 
+  position: relative;
+  left: 4px;
+  top: 8px;
+}
+
+.bulletedlist{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  position: absolute;
+  left: 42rem;
+  font-size: large;
+}
+.bulletedlist :hover{
+  color: #f9f0e6;
+  background: rgba(235, 121, 101, 0.2);
+  text-decoration: underline;
+}
 

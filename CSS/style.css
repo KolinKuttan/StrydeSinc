@@ -186,7 +186,7 @@ tbody tr:nth-child(odd) {
 .bulletedlist{
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 45px;
   position: absolute;
   left: 42rem;
   top: 19rem;

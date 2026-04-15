@@ -190,6 +190,7 @@ tbody tr:nth-child(odd) {
   gap: 30px;
   position: absolute;
   left: 42rem;
+  top: 45rem;
   font-size: large;
 }
 .bulletedlist :hover{

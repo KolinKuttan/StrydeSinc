@@ -183,14 +183,13 @@ tbody tr:nth-child(odd) {
   left: 4px;
   top: 8px;
 }
-
 .bulletedlist{
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 40px;
   position: absolute;
   left: 42rem;
-  top: 45rem;
+  top: 21.5rem;
   font-size: large;
 }
 .bulletedlist :hover{
